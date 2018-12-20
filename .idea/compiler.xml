@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
         <module name="clouddemo" />
         <module name="config-server" />
         <module name="eureka-producer" />
@@ -16,8 +17,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-gateway" target="1.8" />
       <module name="api-getway" target="1.8" />
+      <module name="api-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

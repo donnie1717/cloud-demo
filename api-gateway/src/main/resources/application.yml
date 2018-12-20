@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: api-gate
+server:
+  port: 5555
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: eureka-producer
+    api-b:
+      path: /api-b/**
+      serviceId: feign-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:1111/eureka/
