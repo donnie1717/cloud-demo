@@ -10,6 +10,8 @@
         <module name="config-server" />
         <module name="ribbon-consumer" />
         <module name="api-gateway" />
+        <module name="oauth2-server" />
+        <module name="oauth2-client" />
         <module name="clouddemo" />
         <module name="eureka-producer2" />
         <module name="feign-consumer" />
@@ -19,7 +21,6 @@
     <bytecodeTargetLevel>
       <module name="api-getway" target="1.8" />
       <module name="api-zuul" target="1.8" />
-      <module name="cloud-demo" target="1.8" />
       <module name="eureka-producer (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>

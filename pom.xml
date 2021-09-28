@@ -6,7 +6,8 @@
 
     <groupId>com.dqzhou.clouddemo</groupId>
     <artifactId>clouddemo</artifactId>
-    <version>1.0.1.RELEASE</version>
+    <packaging>pom</packaging>
+    <version>${project.version}</version>
 
     <properties>
         <project.version>1.0.1.RELEASE</project.version>
@@ -44,6 +45,8 @@
         <module>config-server</module>
         <module>feign-consumer</module>
         <module>ribbon-consumer</module>
+        <module>oauth2-server</module>
+        <module>oauth2-client</module>
     </modules>
 
     <dependencies>
